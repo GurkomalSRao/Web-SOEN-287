@@ -1,0 +1,94 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<!--Header-->
+	<meta charset="utf-8">
+
+	<title>Concordia Rental Market</title>
+	<meta name="description" content="Rental Market">
+	<meta name="author" content="Gurkomal Singh Rao">
+
+	<link rel="stylesheet" type="text/css" href="css/Home.css">
+	<script src="script/register.js"></script>
+<!--Header End-->
+</head>
+<!--Body-->
+<body>
+	<center>
+	<!--Banner Image-->
+	<div id="top"></div>
+	<!--Navigation Bar -->
+	<div id="nav">
+	<ul>
+		<li><a href="Home.html">Home</a></li>
+		<li><a href="login.html">Login</a></li>
+		<li><a href="Register.html">Register</a></li>
+		<li><a href="ownerTenenatSelectionCriteria.html">Owner's Tenant Selection</a></li>
+		<li><a href="listingPropertiesForRent.html">Listing Properties For Rent</a></li>
+		<li><a href="tenantProfile.html">Tenant's Profile</a></li>
+		<li><a href="tenantRentalPreference.html">Tenant's Rental Preferences</a></li>		
+	</ul>
+	</div>
+	<br>
+	<!--Navigation Bar End-->
+	<form action="register.php" method="POST" onsubmit="return validation();">
+	<!--Table for Content-->
+	<table id="contentTable">
+	<tr> 
+		<td>First Name:</td>
+		<td> <input type="text" id="fname" name="fname"></td>
+	</tr>
+	<tr>
+		<td>Last  Name:</td>
+		<td><input type="text" id="lname" name="lname"></td>
+	</tr>
+	<tr>
+		<td>Phone Number:</td>
+		<td>(<input type="text" id="phone1" name="phone1" placeholder="xxx" size="3" maxlength="3">)
+		<input type="text" placeholder="xxx" id="phone2" name="phone2" size="3" maxlength="3">-
+		<input type="text" placeholder="xxx" id="phone3" name="phone3" size="4" maxlength="4"></td>
+	</tr>
+	<tr>
+		<td>Email Address:</td>
+		<td><input type="email" placeholder="yourEmail@gmail.com" id="email" name="email"></td>
+	</tr>
+	<tr>
+		<td>Login Name:</td>
+		<td><input type="text" id="username" name="username"></td>
+	</tr>
+	<tr>
+		<td>Password:</td>
+		<td><input type="password" id="pw1" name="pw1"></td>
+	</tr>
+	<tr>
+		<td>Password Confirmation:</td>
+		<td><input type="password" id="pw2" name="pw2"></td>
+	</tr>
+	<tr>
+		<td>Registered As:</td>
+		<td>
+		<select id="type" name="type">
+		  <option value="Tenant">Tenant</option>
+		  <option value="Owner">Property Owner</option>
+		</select>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2"><input type="submit" value="Submit"><br><br> <input type="reset" value="Clear"></td>
+	</tr>
+	</table>
+	</form>
+	<!--End of content Table-->	
+	<!--Footer-->
+	<footer>
+		<center>
+		  <p>Copyright © Concordia Rental Market 2015</p>
+		  <p>Contact information: <a href="mailto:randomemail@gmail.com">randomemail@gmail.com</a></p>
+		</center>
+	</footer>
+	<!--Footer End-->
+	</center>
+	<!--Body End-->
+</body>
+</html>

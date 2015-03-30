@@ -1,0 +1,75 @@
+body {
+    background-color: #28574f;
+}
+#top{
+	width: 900px;
+	height: 250px;
+	background-image: url("Untitled-1.png");
+	
+}
+#nav{
+	width: 850px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 2px 3px #333333;
+    background-color: #20515a;
+	box-shadow: 5px 5px 3px #000000;
+    border-radius: 8px;
+}
+#nav ul{
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+#nav a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 3px 3px 3px 3px;
+}
+#nav a:hover {
+    color: #85cc7b;
+    background-color: #204643;
+}
+#nav li{
+	display: inline; 
+	padding: 10px; 
+}
+#contentTable{
+	width: 850px;
+    height: auto;
+    font-size: 16px;
+	color: white;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 2px 3px #333333;
+    background-color: #20515a;
+	box-shadow: 5px 5px 3px #000000;
+}
+footer{
+	width: 850px;
+    height: 55px;
+    font-size: 16px;
+	color: white;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 2px 3px #333333;
+    background-color: #20515a;
+	box-shadow: 5px 5px 3px #000000;
+    border-radius: 8px;
+}
+footer a{
+    text-decoration: none;
+    color: #7bccaa;
+    padding: 8px 8px 8px 8px;
+}
+#selectBar select{
+	width:172px;
+}
+#headerTitle{
+	font-size: 200%;
+}
+#availBar input{
+	width: 169px;
+}

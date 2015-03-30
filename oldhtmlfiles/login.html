@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<!--Header-->
+	<meta charset="utf-8">
+
+	<title>Concordia Rental Market</title>
+	<meta name="description" content="Rental Market">
+	<meta name="author" content="Gurkomal Singh Rao">
+
+	<link rel="stylesheet" type="text/css" href="css/Home.css">
+	<script src="script/login.js"></script>
+<!--Header End-->
+</head>
+<!--Body-->
+<body>
+	<center>
+	<!--Banner Image-->
+	<div id="top"></div>
+	<!--Navigation Bar -->
+	<div id="nav">
+	<ul>
+		<li><a href="Home.html">Home</a></li>
+		<li><a href="login.html">Login</a></li>
+		<li><a href="Register.html">Register</a></li>
+		<li><a href="ownerTenenatSelectionCriteria.html">Owner's Tenant Selection</a></li>
+		<li><a href="listingPropertiesForRent.html">Listing Properties For Rent</a></li>
+		<li><a href="tenantProfile.html">Tenant's Profile</a></li>
+		<li><a href="tenantRentalPreference.html">Tenant's Rental Preferences</a></li>		
+	</ul>
+	</div>
+	<br>
+	<!--Navigation Bar End-->
+	<form action="login.php" method="POST" onsubmit="return validation();">
+	<!--Table for Content-->
+	<table id="contentTable">
+	<tr></tr>
+	<tr>
+		<td>Login Name:</td>
+		<td><input type="text" id="username" name="username"></td>
+	</tr>
+	<tr>
+		<td>Password:</td>
+		<td><input type="password" id="pw" name="pw"></td>
+	</tr>
+	<tr>
+		<td>Login As:</td>
+		<td>
+		<select id="type" name="type">
+		  <option value="tenant">Tenant</option>
+		  <option value="propertyOwner">Property Owner</option>
+		</select>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2"><input type="submit" value="Login"></td>
+	</tr>
+	</table>
+	</form>
+	<!--End of content Table-->	
+	<!--Footer-->
+	<footer>
+		<center>
+		  <p>Copyright © Concordia Rental Market 2015</p>
+		  <p>Contact information: <a href="mailto:randomemail@gmail.com">randomemail@gmail.com</a></p>
+		</center>
+	</footer>
+	<!--Footer End-->
+	</center>
+	<!--Body End-->
+</body>
+</html>
